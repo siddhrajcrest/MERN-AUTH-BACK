@@ -11,6 +11,8 @@ import routes from './routes/posts.js';
 import Category from './routes/category.js';
 import users from './routes/users.js'
 import dbconfig from './config/key.js';
+import 'dotenv/config'
+
 // import passport from 'passport';
 // import users from './routes/users.js';
 // import router from './routes/posts.js';
@@ -50,4 +52,3 @@ mongoose
 // pp(passport);
 // // Routes
 // app.use("/api/users", users);
-
